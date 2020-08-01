@@ -13,9 +13,28 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <h1 class="ppurple">Crystal Collector</h1>
-  
+  <div class="center">
+  <h1 class="purple">Crystal Collector</h1>
+  </div>
+  <div>
+    <h4>Target Score: <span id="taSc"></span></h4>
+  </div>
+  <div>
+    <h4>Wins: <span id="wins">0</span></h4>
+    <h4>Losses: <span id="losses">0</span></h4>
+  </div>
 
+  <div center="center">
+  <button class="btn" onclick="buttonClick(1)">Gem 1</button>
+  <button class="btn" onclick="buttonClick(2)">Gem 2</button>
+  <button class="btn" onclick="buttonClick(3)">Gem 3</button>
+  <button class="btn" onclick="buttonClick(4)">Gem 4</button>
+  </div>
+  
+  <div class="center">
+  <h3 id="totalScore">Total Score: 0</h3>
+  </div>
+  
   <script src="./assets/javascript/app.js"></script>
 </body>
 </html>
